@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>    
+    <title>Video Stream</title>
+      <style>
+        img {
+            display: block;
+            padding-right: 5px;
+            width: 1000px;
+            height: 500px;
+        }
+        .button {
+          border: none;
+          border-radius: 4px;
+          color: white;
+          padding: 15px 2%;
+          text-align: center;
+          text-decoration: none;
+          height:750px; /*150 for mobile and 70px for pc */
+          width: 98%;
+          display: inline-block;
+          font-size: 20px; /* 50 for m and 30 for desk */ 
+          margin: 4px 0px 4px 3%;
+          cursor: pointer;
+        }
+          #add_face{
+              font-size: 60px;
+              background-color: #c83349;
+          }
+          #close_video{
+              font-size: 180px;
+             background-color: #ff0000; 
+          }
+      </style>
+  </head>
+  <body><!--style="margin-top: 50%;"-->
+  <a href="/Add_face" ><input type="button" id="add_face" class='button' value='ADD FACE'/></a>
+  <img src="{{ url_for('start_video') }}" >
+  <a href="/close_video" ><input type="button" id="close_video" class='button' value='STOP'/></a>
+  </body>
+</html>

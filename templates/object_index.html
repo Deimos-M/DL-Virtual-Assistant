@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Video Stream</title>
+      <style>
+        img {
+            display: block;
+            padding-right: 5px;
+            width: 1000px;
+            height: 500px;
+        }
+        .button {
+          border: none;
+          border-radius: 4px;
+          color: white;
+          padding: 15px 2%;
+          text-align: center;
+          text-decoration: none;
+          height:750px;
+          width: 98%;
+          display: inline-block;
+          margin: 4px 0px 4px 3%;
+          cursor: pointer;
+        }
+          #switch{
+              font-size: 60px;
+              background-color: #c83349;
+          }
+          #object_close{
+              font-size: 180px;
+             background-color: #ff0000; 
+          }
+      </style>
+  </head>
+  <body>
+  <a href="/face_recog" ><input type="button" id="switch" class='button' value='SWITCH TO FACE RECOGNITION'/></a>
+  <img src="{{ url_for('object_start_video') }}" >
+  <a href="/object_close_video" ><input type="button" id="object_close" class='button' value='STOP'/></a>
+  </body>
+</html>
