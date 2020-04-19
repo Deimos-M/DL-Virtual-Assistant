@@ -1,4 +1,4 @@
-# DL Virtual Assistant
+# Virtual Assistant
 It is a virtual assistant for visually impaired which include models like face recognition, object detection, text to speech, speech recognition. The idea behind this project is to host this website and use it from mobile phones and therefore the website's UI is designed according to mobile phones.
 
 ### Requirements and usage 
