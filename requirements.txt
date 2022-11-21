@@ -50,7 +50,7 @@ scipy==1.4.1
 six==1.14.0
 SpeechRecognition==3.8.1
 tensorboard==1.14.0
-tensorflow==1.14.0
+tensorflow==2.9.3
 tensorflow-estimator==1.14.0
 tensorflow-gpu==1.14.0
 termcolor==1.1.0
